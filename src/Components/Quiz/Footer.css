@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins';
+}
+
+footer {
+    background-color: #033043; /* Gradient background */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s, padding 0.3s; /* Include padding transition */
+}
+
+footer a:hover {
+    color: #fda521; /* Hover color */
+    border-radius: 5px;
+}
+
+.additional-resources, .social-media, .contact-info, .legal-links {
+    margin: 10px 0;
+}
+
+.additional-resources a, .legal-links a {
+    margin: 0 10px;
+    padding: 5px 10px; /* Ensure consistent padding */
+}
+
+.additional-resources {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-media a {
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px; /* Ensure a consistent size */
+    object-fit: contain; /* Ensure the image fits within the dimensions */
+    transition: transform 0.3s;
+}
+
+.social-media img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.contact-info a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.legal-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+

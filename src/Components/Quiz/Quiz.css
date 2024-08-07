@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins';
+}
+
+.container {
+  width: 500px;
+  /* Adjusted width to make it smaller */
+  margin: auto;
+  margin-top: 5%;
+  backdrop-filter: blur(10px) brightness(0.8);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 30px 40px;
+  /* Adjusted padding to make it smaller */
+  font-weight: weight;
+  font-style: normal;
+  margin-bottom: 5%;
+  box-shadow: -1px 3px 41px 0px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: -1px 3px 41px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: -1px 3px 41px 0px rgba(255, 255, 255, 0.75);
+}
+
+.container hr {
+  height: 2px;
+  border: none;
+  background: #fda521;
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding-left: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #fda521;
+  cursor: pointer;
+}
+
+.container .index {
+  margin: auto;
+  font-size: 22px;
+}
+
+.container .correct {
+  background-color: rgb(17, 213, 30);
+  color: #ffffff;
+}
+
+.container .wrong {
+  background-color: red;
+  border: 2px solid maroon;
+  color: #ffffff;
+}
+
+.container button {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #fda521;
+    transition: background-color 0.3s ease;
+}
+.container button:hover{
+  color: #ffffff;
+  background-color: #fda521;
+}
